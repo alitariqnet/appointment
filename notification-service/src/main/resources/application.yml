@@ -1,27 +1,27 @@
-spring: 
-  datasource: 
-    url: jdbc:postgresql://localhost:5432/userdb
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/emaildb
     username: postgres
     password: root
-cron: 
+cron:
   expression: */1 * * * *
-logging: 
-  file: 
+logging:
+  file:
     path: logs
     name: logs.log
-  logback: 
-    rollingpolicy: 
+  logback:
+    rollingpolicy:
       file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.zip
       max-file-size: 10MB
       max-history: 1000
-  level: 
-    org: 
-      springframework: 
+  level:
+    org:
+      springframework:
         security: TRACE
-cloud: 
-  aws: 
-    region: 
+cloud:
+  aws:
+    region:
       static: us-east-1
       auto: true
-custom: 
+custom:
   bucket-name: bockett
