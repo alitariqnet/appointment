@@ -3,8 +3,10 @@ spring:
     url: jdbc:postgresql://localhost:5432/appointmentdb
     username: postgres
     password: root
+
 cron:
   expression: */1 * * * *
+
 logging:
   file:
     path: logs
@@ -18,10 +20,12 @@ logging:
     org:
       springframework:
         security: TRACE
+
 cloud:
   aws:
     region:
       static: us-east-1
       auto: true
+
 custom:
   bucket-name: bockett

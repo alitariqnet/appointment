@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b24c3c-a68a-4ebc-8ba3-eb0a72afc0e3" name="Changes" comment="dependency fix">
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/org/acmeware/AppointmentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="70b24c3c-a68a-4ebc-8ba3-eb0a72afc0e3" name="Changes" comment="add entities appointment, doctor, patient">
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/org/acmeware/controller/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/org/acmeware/entity/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/org/acmeware/repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/org/acmeware/service/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/entity/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/entity/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/entity/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appointment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +82,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\untitled" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.acmeware.entity" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -108,14 +116,24 @@
       <option name="project" value="LOCAL" />
       <updated>1722540113542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="yml file and db setup">
+      <option name="closed" value="true" />
+      <created>1722541846772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722541846772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="dependency fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency fix" />
+    <MESSAGE value="yml file and db setup" />
+    <MESSAGE value="add entities appointment, doctor, patient" />
+    <option name="LAST_COMMIT_MESSAGE" value="add entities appointment, doctor, patient" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
