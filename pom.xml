@@ -29,6 +29,7 @@
         <module>notification-service</module>
         <module>organiztion-service</module>
         <module>medical-history-service</module>
+        <module>gateway-service</module>
     </modules>
 
     <properties>
