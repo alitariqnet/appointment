@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b24c3c-a68a-4ebc-8ba3-eb0a72afc0e3" name="Changes" comment="add module gateway service">
-      <change afterPath="$PROJECT_DIR$/medical-history-service/src/main/java/entity/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="70b24c3c-a68a-4ebc-8ba3-eb0a72afc0e3" name="Changes" comment="user service entities configs fix">
+      <change afterPath="$PROJECT_DIR$/medical-history-service/src/main/java/controller/HistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-history-service/src/main/java/repository/HistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-history-service/src/main/java/service/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-history-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical-history-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/medical-history-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/entity/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/entity/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medical-history-service/src/main/java/entity/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/medical-history-service/src/main/java/entity/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/org/acmeware/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/org/acmeware/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/org/acmeware/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/org/acmeware/repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +23,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alitariqnet"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alitariqnet/appointment.git",
+    "accountId": "1e1583b4-6d67-4775-b5f8-ddadbfb6d52a"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -71,7 +82,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/appointment/user-service/src/main/resources",
+    "last_opened_file_path": "D:/Projects/appointment/medical-history-service/src/main/resources",
     "onboarding.tips.debug.path": "D:/Projects/discovery-service/discovery-service/src/main/java/org/acmeware/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -81,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\appointment\medical-history-service\src\main\resources" />
       <recent name="D:\Projects\appointment\user-service\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -169,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723193613210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="user service entities configs fix">
+      <option name="closed" value="true" />
+      <created>1723198343170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723198343170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +204,8 @@
     <MESSAGE value="add organization service" />
     <MESSAGE value="add medical history service" />
     <MESSAGE value="add module gateway service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module gateway service" />
+    <MESSAGE value="user service entities configs fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="user service entities configs fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

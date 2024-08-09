@@ -1,6 +1,6 @@
 package org.acmeware.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "notification")

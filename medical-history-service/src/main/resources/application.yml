@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/emaildb
+    url: jdbc:postgresql://localhost:5432/medicalhistorydb
     username: postgres
     password: root
 
