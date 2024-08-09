@@ -1,8 +1,6 @@
 package entity;
 
-import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
+import javax.persistence.*;
 import java.util.List;
 
 @Entity

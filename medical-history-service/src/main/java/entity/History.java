@@ -1,6 +1,6 @@
 package entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "history")
@@ -57,4 +57,5 @@ public class History {
         this.description = description;
     }
 }
+
 
