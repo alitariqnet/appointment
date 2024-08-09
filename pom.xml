@@ -28,6 +28,7 @@
         <module>appointment-service</module>
         <module>notification-service</module>
         <module>organiztion-service</module>
+        <module>medical-history-service</module>
     </modules>
 
     <properties>
