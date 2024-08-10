@@ -1,4 +1,4 @@
-package configs;
+package org.acmeware.configs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteLocator;

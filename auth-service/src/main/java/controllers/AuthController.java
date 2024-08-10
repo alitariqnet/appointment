@@ -13,7 +13,6 @@ import services.AuthService;
 
 @RestController
 @RequestMapping("/auth")
-@AllArgsConstructor
 public class AuthController {
 
     private final AuthService authService;

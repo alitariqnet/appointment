@@ -1,9 +1,6 @@
 package org.acmeware.entity;
 
-import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.EnableMBeanExport;
-
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity

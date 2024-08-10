@@ -1,4 +1,4 @@
-package configs;
+package org.acmeware.configs;
 
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Service;

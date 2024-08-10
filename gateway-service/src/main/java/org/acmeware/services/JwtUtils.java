@@ -1,4 +1,4 @@
-package services;
+package org.acmeware.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
