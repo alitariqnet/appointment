@@ -1,4 +1,6 @@
-package entity;
+package org.acmeware.entity;
+
+import org.acmeware.entity.History;
 
 import javax.persistence.*;
 import java.util.List;

@@ -1,4 +1,4 @@
-package entity;
+package org.acmeware.entity;
 
 import javax.persistence.*;
 

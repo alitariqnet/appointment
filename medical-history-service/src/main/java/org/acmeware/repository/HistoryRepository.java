@@ -1,6 +1,6 @@
-package repository;
+package org.acmeware.repository;
 
-import entity.History;
+import org.acmeware.entity.History;
 import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
 import org.springframework.stereotype.Repository;
 

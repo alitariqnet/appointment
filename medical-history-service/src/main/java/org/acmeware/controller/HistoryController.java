@@ -1,4 +1,4 @@
-package controller;
+package org.acmeware.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
