@@ -19,18 +19,6 @@ public class Appointment {
     @Column(name = "date_time")
     private LocalDateTime dateTime;
 
-    @Column(name = "tenant_id")
-    private String tenantId;
-
-    @Column(name = "hospital")
-    private String hospital;
-
-    @Column(name = "clinic")
-    private String clinic;
-
-    @Column(name = "paid_free")
-    private boolean pairOrFree;
-
     @Column(name = "done")
     private boolean isDone;
 
@@ -70,38 +58,6 @@ public class Appointment {
 
     public void setDateTime(LocalDateTime dateTime) {
         this.dateTime = dateTime;
-    }
-
-    public String getTenantId() {
-        return tenantId;
-    }
-
-    public void setTenantId(String tenantId) {
-        this.tenantId = tenantId;
-    }
-
-    public String getHospital() {
-        return hospital;
-    }
-
-    public void setHospital(String hospital) {
-        this.hospital = hospital;
-    }
-
-    public String getClinic() {
-        return clinic;
-    }
-
-    public void setClinic(String clinic) {
-        this.clinic = clinic;
-    }
-
-    public boolean isPairOrFree() {
-        return pairOrFree;
-    }
-
-    public void setPairOrFree(boolean pairOrFree) {
-        this.pairOrFree = pairOrFree;
     }
 
     public boolean isDone() {
